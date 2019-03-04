@@ -1,0 +1,7 @@
+<p>THIS IS MIXED FROM CHILDREN</p>
+<p>child1: {{fromChild1}}  child2: {{fromChild2}} child3: {{fromChild3}}</p>
+
+
+<app-child1 (messageEvent)="receiveFromChild1($event)"></app-child1>
+<app-child2 (messageEvent)="receiveFromChild2($event)"></app-child2>
+<app-child3 (messageEvent)="receiveFromChild3($event)"></app-child3>
